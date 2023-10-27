@@ -362,6 +362,137 @@
   background-color: black;
 }
 
+#events {
+  padding-top: 80px !important;
+}
+#events .heading {
+  text-align: center;
+}
+#events .heading .latest {
+  background: #fffcf8;
+  border: 1px solid #d4a762;
+  text-transform: uppercase;
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 600 !important;
+}
+#events .heading .social {
+  font-family: myFirstFont;
+  font-size: 48px;
+}
+#events .tab-menu {
+  text-align: center;
+}
+#events .tab-menu ul {
+  display: inline-flex;
+}
+#events .tab-menu ul li {
+  list-style: none;
+  margin-left: 20px;
+  background: #fffcf8;
+  border: 1px solid #d4a762;
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+  width: 120px !important;
+  height: 35px !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+#events .tab-menu ul .active-tab {
+  background-color: #d4a762;
+}
+#events .menu {
+  padding: 15px !important;
+}
+#events .menu img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+
+#menu {
+  padding-top: 70px !important;
+  background: #fffcf8;
+}
+#menu .heading {
+  text-align: center;
+}
+#menu .heading .our-menu {
+  background: #fffcf8;
+  border: 1px solid #d4a762;
+  text-transform: uppercase;
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 600 !important;
+}
+#menu .heading .popular {
+  font-family: myFirstFont;
+  font-size: 48px;
+}
+#menu .tab-menu {
+  text-align: center;
+}
+#menu .tab-menu ul {
+  display: inline-flex;
+}
+#menu .tab-menu ul li {
+  list-style: none;
+  margin-left: 20px;
+  background: #fffcf8;
+  border: 1px solid #d4a762;
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+  width: 120px !important;
+  height: 35px !important;
+  padding: 5px !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+#menu .tab-menu ul .active-tab {
+  background-color: #d4a762;
+}
+#menu .food .menu-item {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+#menu .food .menu-item img {
+  border-radius: 50%;
+}
+#menu .food .menu-item .content {
+  padding-left: 20px;
+}
+#menu .food .menu-item .content .text {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted #d4a762;
+}
+#menu .food .menu-item .content .text h4 {
+  color: #d4a762;
+}
+#menu .food .menu-item .content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9a9a9a;
+  font-family: mySecondFont;
+}
+
 .active-bar {
   transform: translateX(0px);
   transition: all 0.5s;

@@ -463,7 +463,6 @@
         }
     }
 
-
     .service-item:hover {
         background-position: 100% 100%;
         cursor: pointer;
@@ -490,6 +489,174 @@
 
 }
 
+
+#events {
+    padding-top: 80px !important;
+
+    .heading {
+        text-align: center;
+
+        .latest {
+            background: #fffcf8;
+            border: 1px solid #d4a762;
+            text-transform: uppercase;
+            border-top-right-radius: 50rem !important;
+            border-bottom-right-radius: 50rem !important;
+            border-top-left-radius: 50rem !important;
+            border-bottom-left-radius: 50rem !important;
+            width: 150px;
+            font-size: 15px;
+            font-weight: 600 !important;
+        }
+
+        .social {
+            font-family: myFirstFont;
+            font-size: 48px;
+        }
+    }
+
+
+    .tab-menu {
+        text-align: center;
+
+        ul {
+            display: inline-flex;
+
+
+            li {
+
+                list-style: none;
+                margin-left: 20px;
+                background: #fffcf8;
+                border: 1px solid #d4a762;
+                border-top-right-radius: 50rem !important;
+                border-bottom-right-radius: 50rem !important;
+                border-top-left-radius: 50rem !important;
+                border-bottom-left-radius: 50rem !important;
+                width: 120px !important;
+                height: 35px !important;
+                padding: 5px !important;
+                font-size: 15px !important;
+                font-weight: 400 !important;
+                cursor: pointer;
+
+
+            }
+
+
+            .active-tab {
+                background-color: #d4a762;
+            }
+        }
+    }
+
+    .menu {
+        padding: 15px !important;
+
+        img {
+            height: 100%;
+            width: 100%;
+            border-radius: 8px;
+        }
+    }
+}
+
+
+#menu {
+    padding-top: 70px !important;
+    background: #fffcf8;
+
+    .heading {
+        text-align: center;
+
+        .our-menu {
+            background: #fffcf8;
+            border: 1px solid #d4a762;
+            text-transform: uppercase;
+            border-top-right-radius: 50rem !important;
+            border-bottom-right-radius: 50rem !important;
+            border-top-left-radius: 50rem !important;
+            border-bottom-left-radius: 50rem !important;
+            width: 150px;
+            font-size: 15px;
+            font-weight: 600 !important;
+        }
+
+        .popular {
+            font-family: myFirstFont;
+            font-size: 48px;
+        }
+    }
+
+
+    .tab-menu {
+        text-align: center;
+
+        ul {
+            display: inline-flex;
+
+
+            li {
+
+                list-style: none;
+                margin-left: 20px;
+                background: #fffcf8;
+                border: 1px solid #d4a762;
+                border-top-right-radius: 50rem !important;
+                border-bottom-right-radius: 50rem !important;
+                border-top-left-radius: 50rem !important;
+                border-bottom-left-radius: 50rem !important;
+                width: 120px !important;
+                height: 35px !important;
+                padding: 5px !important;
+                font-size: 15px !important;
+                font-weight: 400 !important;
+                cursor: pointer;
+
+
+            }
+
+
+            .active-tab {
+                background-color: #d4a762;
+            }
+        }
+    }
+
+    .food {
+        .menu-item {
+            display: flex;
+            margin-top: 10px;
+            justify-content: space-between;
+
+            img {
+                border-radius: 50%;
+            }
+
+            .content {
+                padding-left: 20px;
+                
+                .text {
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom: 1px dotted #d4a762;
+
+                    h4 {
+                        color: #d4a762;
+                    }
+                }
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    color: #9a9a9a;
+                    font-family: mySecondFont;
+                }
+            }
+        }
+    }
+}
 
 
 
