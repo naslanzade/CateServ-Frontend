@@ -137,7 +137,7 @@
   text-align: center;
   position: relative;
   top: 44px;
-  left: 350px;
+  left: 300px;
   cursor: pointer;
   transition: all 0.5s;
   color: #d4a762 !important;
@@ -421,6 +421,7 @@
 #menu {
   padding-top: 70px !important;
   background: #fffcf8;
+  padding: 50px;
 }
 #menu .heading {
   text-align: center;
@@ -493,6 +494,192 @@
   font-family: mySecondFont;
 }
 
+#team {
+  padding-top: 70px !important;
+}
+#team .heading {
+  text-align: center;
+}
+#team .heading .our-team {
+  background: #fffcf8;
+  border: 1px solid #d4a762;
+  text-transform: uppercase;
+  border-top-right-radius: 50rem !important;
+  border-bottom-right-radius: 50rem !important;
+  border-top-left-radius: 50rem !important;
+  border-bottom-left-radius: 50rem !important;
+  width: 150px;
+  font-size: 15px;
+  font-weight: 600 !important;
+}
+#team .heading .popular {
+  font-family: myFirstFont;
+  font-size: 48px;
+}
+#team .team-item {
+  position: relative;
+  transition: 0.9s;
+  cursor: pointer;
+}
+#team .team-item img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 8px !important;
+  border-top-right-radius: 8px !important;
+}
+#team .team-item .content {
+  text-align: center;
+  background-color: #050709 !important;
+  border-bottom-right-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  transition: 0.9s;
+}
+#team .team-item .content h4 {
+  color: #d4a762;
+  font-size: 24px;
+  font-family: mySecondFont;
+  font-weight: 600 !important;
+}
+#team .team-item .content p {
+  color: #fff;
+  font-family: mySecondFont;
+  font-size: 16px;
+  font-weight: 400 !important;
+}
+#team .team-item .team-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 24px !important;
+  transition: 0.9s;
+}
+#team .team-item .team-icon a {
+  width: 40px;
+  height: 40px;
+  background: #d4a762;
+  align-items: center;
+  text-decoration: none;
+  border: transparent;
+  color: #050709;
+}
+#team .team-item:hover .content {
+  background-color: #d4a762 !important;
+}
+#team .team-item:hover .content h4 {
+  color: #050709;
+}
+#team .team-item:hover .team-icon a {
+  display: block !important;
+}
+
+#scrollBtn .btn i {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 60px;
+  right: 50px;
+  z-index: 99;
+  font-size: 20px;
+  background-color: #d4a762;
+  color: #050709;
+  cursor: pointer;
+  padding: 12px;
+  transition: all 0.5s;
+}
+#scrollBtn .btn i:hover {
+  background-color: #050709;
+  color: #d4a762;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#foot-side {
+  padding-top: 70px !important;
+  background: #fffcf8;
+}
+#foot-side .logo a {
+  white-space: nowrap;
+  text-decoration: none;
+}
+#foot-side .logo a .text-primary {
+  color: #d4a762 !important;
+  font-weight: 400 !important;
+  font-family: myFirstFont;
+  line-height: 1.2;
+  font-size: 30px;
+}
+#foot-side .logo p {
+  color: #9a9a9a;
+  font-family: mySecondFont;
+  font-size: 16px;
+}
+#foot-side .logo .social a {
+  text-decoration: none;
+  background-color: #d4a762;
+  color: #050709;
+  border: transparent;
+  transition: 0.9s;
+  cursor: pointer;
+}
+#foot-side .logo .social a:hover {
+  background-color: #050709;
+  color: #d4a762;
+}
+#foot-side .special h4 {
+  font-family: mySecondFont;
+  font-weight: 600 !important;
+  font-size: 24px;
+}
+#foot-side .special .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#foot-side .special .content a {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+#foot-side .special .content a i {
+  color: #d4a762;
+  padding: 10px;
+}
+#foot-side .contact h4 {
+  font-family: mySecondFont;
+  font-weight: 600 !important;
+  font-size: 24px;
+}
+#foot-side .contact .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+#foot-side .contact .content a {
+  text-decoration: none;
+  color: #9a9a9a;
+}
+#foot-side .contact .content a i {
+  color: #d4a762;
+  padding: 10px;
+}
+#foot-side .gallery h4 {
+  font-family: mySecondFont;
+  font-weight: 600 !important;
+  font-size: 24px;
+}
+#foot-side .gallery .content {
+  display: flex;
+  flex-wrap: wrap;
+}
+#foot-side .gallery .content .col-4 {
+  flex: 0 0 auto;
+  padding: 5px;
+}
+
 .active-bar {
   transform: translateX(0px);
   transition: all 0.5s;
@@ -513,5 +700,15 @@
   }
   #sidebar {
     display: block !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #events .tab-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #menu .tab-menu ul {
+    display: flex;
+    flex-wrap: wrap;
   }
 }/*# sourceMappingURL=home.css.map */
