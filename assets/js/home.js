@@ -1,4 +1,8 @@
 $(document).ready(function () {
+  
+   //The wowjs
+   new WOW().init();
+  
   //Sidebar
   let sidebar = document.querySelector(".sidebar");
   let closeButton = document.querySelector(".sidebar .close-part .close");
@@ -68,6 +72,10 @@ $(document).ready(function () {
        scrollBtn.style.opacity = 0;
      }
    });
+
+
+
+
 
 
 
